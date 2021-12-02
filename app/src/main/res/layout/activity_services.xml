@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="25dp"
+        android:id="@+id/Navbar"
+        >
+        <TextView
+            android:id="@+id/Home"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Home"
+            android:layout_marginStart="20sp"
+            android:textSize="17sp"
+            android:textStyle="bold"
+            android:textColor="#fff"
+            android:layout_weight="1"/>
+        <TextView
+            android:id="@+id/Services"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Services"
+            android:textSize="17sp"
+            android:textStyle="bold"
+            android:textColor="#fff"
+            android:layout_weight="1"/>
+        <TextView
+            android:id="@+id/Skills"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Skills"
+            android:textSize="17sp"
+            android:textStyle="bold"
+            android:textColor="#fff"
+            android:layout_weight="1"/>
+        <TextView
+            android:id="@+id/Portfolio"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Portfolio"
+            android:textSize="17sp"
+            android:textStyle="bold"
+            android:textColor="#fff"
+            android:layout_weight="1"/>
+        <TextView
+            android:id="@+id/Contact"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Contact"
+            android:textSize="17sp"
+            android:textStyle="bold"
+            android:textColor="#fff"
+            android:layout_weight="1"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/Service"
+        android:layout_below="@+id/Navbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Services"
+        android:gravity="center"
+        android:layout_marginTop="20dp"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:textColor="#008000" />
+    <TextView
+        android:id="@+id/GoodAt"
+        android:layout_below="@+id/Service"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="What I Am Good At"
+        android:textColor="#fff"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:layout_marginBottom="20dp"
+        android:gravity="center"/>
+    <RelativeLayout
+        android:id="@+id/Design"
+        android:layout_below="@+id/GoodAt"
+        android:layout_width="match_parent"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginBottom="20dp"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:id="@+id/DesignImage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_launcher_foreground"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/DesignImage"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="40sp"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:textColor="#fff"
+            android:text="UI/UX Design" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/WebDesign"
+        android:layout_below="@+id/Design"
+        android:layout_width="match_parent"
+        android:layout_marginBottom="20dp"
+        android:layout_marginStart="20dp"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:id="@+id/WebDesignImage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_launcher_foreground"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/WebDesignImage"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="40sp"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:textColor="#fff"
+            android:text="Web Developement" />
+
+    </RelativeLayout>
+    <RelativeLayout
+        android:id="@+id/AndroidDesign"
+        android:layout_below="@+id/WebDesign"
+        android:layout_width="match_parent"
+        android:layout_marginStart="20dp"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:id="@+id/AndroidDesignImage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/imagebackground"
+            android:src="@drawable/ic_launcher_foreground"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/AndroidDesignImage"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="40sp"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:textColor="#fff"
+            android:text="Android Developement" />
+
+    </RelativeLayout>
+
+</RelativeLayout>
