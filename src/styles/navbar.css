@@ -1,0 +1,13 @@
+li{
+    display: inline;
+    float: right;
+    display: block;
+    padding: 20px;
+    font-size: 25px;
+   
+}
+@media only screen and (max-width:480px){
+    .navbar{
+     display: none !important;
+    }
+  }

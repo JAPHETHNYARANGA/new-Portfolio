@@ -1,0 +1,45 @@
+
+.Description{
+    float: right;
+    font-size: 45px;
+    margin-right: 100px;
+    font-weight: 300;
+}
+/* .Avatar{
+    position: absolute;
+    margin-top: 50px;
+    left: 40%;
+
+} */
+
+/* 
+img {
+    width: 70%;
+    height: auto;
+  } */
+
+
+.col-sm{
+    margin-right:5%;
+}
+
+@media only screen and (max-width:480px){
+   Button{
+       text-align: center;
+       
+   }
+   .Name{
+       text-align: center !important;
+       margin-top: 0%;
+   }
+  
+   .Home{
+       text-align: center;
+   }
+   .home-img{
+       height:50%;
+       
+   }
+
+   
+  }

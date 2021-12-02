@@ -1,0 +1,11 @@
+Button{
+    margin-right:2%;
+}
+h6{
+    text-align: center;
+}
+
+/* phone screens */
+@media only screen and (max-width:480px){
+    
+}
