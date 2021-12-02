@@ -10,6 +10,7 @@ import android.widget.TextView;
 
 import com.squareup.picasso.Picasso;
 
+
 public class ServicesActivity extends AppCompatActivity {
     TextView Home, Skills, Portfolio, Contact;
     ImageView Design, Web, Android;
