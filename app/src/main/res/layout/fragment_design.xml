@@ -14,15 +14,17 @@
         android:textSize="20dp"
         android:text="Designs"
         android:textColor="#008000"
+
         />
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:layout_marginTop="40dp"
         android:orientation="vertical">
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="200dp"
+            android:layout_height="150dp"
             android:orientation="horizontal">
             <ImageView
                 android:layout_width="120dp"
