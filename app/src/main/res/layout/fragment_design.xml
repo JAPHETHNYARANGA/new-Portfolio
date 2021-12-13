@@ -25,37 +25,53 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="150dp"
+            android:layout_marginStart="10dp"
             android:orientation="horizontal">
             <ImageView
-                android:layout_width="120dp"
-                android:layout_height="120dp"
-                android:src="@drawable/mail_foreground"/>
+                android:id="@+id/design1"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_margin="3dp"
+
+                android:src="@mipmap/design1"/>
             <ImageView
-                android:layout_width="120dp"
-                android:layout_height="120dp"
-                android:src="@drawable/mail_foreground"/>
+                android:id="@+id/design2"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_margin="3dp"
+                android:src="@mipmap/design2"/>
             <ImageView
-                android:layout_width="120dp"
-                android:layout_height="120dp"
-                android:src="@drawable/mail_foreground"/>
+                android:id="@+id/design3"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_margin="3dp"
+                android:src="@mipmap/design3"/>
+
         </LinearLayout>
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
             android:orientation="horizontal">
             <ImageView
-                android:layout_width="120dp"
-                android:layout_height="120dp"
-                android:src="@drawable/mail_foreground"/>
+                android:id="@+id/design4"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_margin="3dp"
+                android:src="@mipmap/design4"/>
             <ImageView
-                android:layout_width="120dp"
-                android:layout_height="120dp"
-                android:src="@drawable/mail_foreground"/>
+                android:id="@+id/design5"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_margin="3dp"
+                android:src="@mipmap/design5"/>
             <ImageView
-                android:layout_width="120dp"
-                android:layout_height="120dp"
-                android:src="@drawable/mail_foreground"/>
+                android:id="@+id/design6"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_margin="3dp"
+                android:src="@mipmap/design6"/>
         </LinearLayout>
     </LinearLayout>
 
