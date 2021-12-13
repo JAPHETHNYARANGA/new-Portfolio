@@ -12,8 +12,8 @@ import android.widget.TextView;
 import com.squareup.picasso.Picasso;
 
 public class ContactActivity extends AppCompatActivity {
-    TextView Services, Home, Skills, Portfolio;
-    ImageView linkdn, github , twitter;
+    TextView Services, Home, Skills, Portfolio, phoneNumber, eMail;
+    ImageView linkdn, github , twitter, phone, Mail;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -27,6 +27,54 @@ public class ContactActivity extends AppCompatActivity {
         Services = findViewById(R.id.Services);
         Skills = findViewById(R.id.Skills);
         Portfolio = findViewById(R.id.Portfolio);
+
+        eMail = findViewById(R.id.eMail);
+        Mail = findViewById(R.id.Mail);
+
+        phone =findViewById(R.id.Phone);
+        phoneNumber = findViewById(R.id.PhoneNo);
+
+        Mail.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent (Intent.ACTION_VIEW , Uri.parse("mailto:" + "nyaranga4@gmail.com"));
+                intent.putExtra(Intent.EXTRA_SUBJECT, "FeedBack/Inquiry");
+                intent.putExtra(Intent.EXTRA_TEXT, "Dear Nyaranga, I am contacting you for ...");
+                startActivity(intent);
+            }
+        });
+
+        eMail.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+                Intent intent = new Intent (Intent.ACTION_VIEW , Uri.parse("mailto:" + "nyaranga4@gmail.com"));
+                intent.putExtra(Intent.EXTRA_SUBJECT, "FeedBack/Inquiry");
+                intent.putExtra(Intent.EXTRA_TEXT, "Dear Nyaranga, I am contacting you for ...");
+                startActivity(intent);
+
+            }
+        });
+
+        phone.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                String number = "+254729736134";
+                Intent intent = new Intent(Intent.ACTION_CALL);
+                intent.setData(Uri.parse("tel:" +number));
+                startActivity(intent);
+            }
+        });
+
+        phoneNumber.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                String number = "+254729736134";
+                Intent intent = new Intent(Intent.ACTION_CALL);
+                intent.setData(Uri.parse("tel:" +number));
+                startActivity(intent);
+            }
+        });
 
         Home.setOnClickListener(new View.OnClickListener() {
             @Override

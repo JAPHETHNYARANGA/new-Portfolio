@@ -92,35 +92,37 @@
         android:layout_below="@+id/Showcase">
 
         <ImageView
-            android:layout_marginTop="20dp"
-
             android:id="@+id/Mail"
+
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:src="@drawable/mail_foreground"/>
+            android:layout_marginTop="20dp"
+            android:src="@drawable/mail_foreground" />
+
         <TextView
             android:id="@+id/eMail"
-            android:layout_toRightOf="@id/Mail"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:textColor="#fff"
             android:layout_marginTop="60dp"
-            android:text="nyaranga4@gmail.com"/>
+            android:layout_toRightOf="@id/Mail"
+            android:text="nyaranga4@gmail.com"
+            android:textColor="#fff" />
 
         <ImageView
-            android:layout_below="@+id/Mail"
             android:id="@+id/Phone"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:src="@drawable/phone_foreground"/>
+            android:layout_below="@+id/Mail"
+            android:src="@drawable/phone_foreground" />
+
         <TextView
             android:id="@+id/PhoneNo"
-            android:layout_toRightOf="@id/Phone"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:textColor="#fff"
             android:layout_marginTop="160dp"
-            android:text="+254729736134"/>
+            android:layout_toRightOf="@id/Phone"
+            android:text="+254729736134"
+            android:textColor="#fff" />
 
     </RelativeLayout>
     <TextView
