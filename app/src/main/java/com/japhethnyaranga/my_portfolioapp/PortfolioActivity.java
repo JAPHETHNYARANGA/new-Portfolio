@@ -1,4 +1,4 @@
-package com.moringaschool.my_portfolioapp;
+package com.japhethnyaranga.my_portfolioapp;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.fragment.app.Fragment;
@@ -11,9 +11,9 @@ import android.view.View;
 import android.widget.FrameLayout;
 import android.widget.TextView;
 
-import com.moringaschool.my_portfolioapp.Fragments.AndroidAppsFragment;
-import com.moringaschool.my_portfolioapp.Fragments.DesignFragment;
-import com.moringaschool.my_portfolioapp.Fragments.websitesFragment;
+import com.japhethnyaranga.my_portfolioapp.Fragments.AndroidAppsFragment;
+import com.japhethnyaranga.my_portfolioapp.Fragments.DesignFragment;
+import com.japhethnyaranga.my_portfolioapp.Fragments.websitesFragment;
 
 public class PortfolioActivity extends AppCompatActivity {
     TextView Services, Home, Skills, Contact, Design, Website, AndroidApps;

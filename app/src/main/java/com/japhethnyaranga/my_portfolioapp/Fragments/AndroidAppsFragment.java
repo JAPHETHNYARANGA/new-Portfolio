@@ -1,4 +1,4 @@
-package com.moringaschool.my_portfolioapp.Fragments;
+package com.japhethnyaranga.my_portfolioapp.Fragments;
 
 import android.os.Bundle;
 
@@ -8,18 +8,16 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
-import com.moringaschool.my_portfolioapp.R;
+import com.japhethnyaranga.my_portfolioapp.R;
 
-
-public class DesignFragment extends Fragment {
-
-   private View view;
-
+public class AndroidAppsFragment extends Fragment {
+    private View view;
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        view =  inflater.inflate(R.layout.fragment_design, container, false);
+        view =  inflater.inflate(R.layout.fragment_android_apps, container, false);
+
 
 
         return view;

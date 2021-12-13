@@ -1,4 +1,4 @@
-package com.moringaschool.my_portfolioapp.Fragments;
+package com.japhethnyaranga.my_portfolioapp.Fragments;
 
 import android.content.Intent;
 import android.net.Uri;
@@ -11,7 +11,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
 
-import com.moringaschool.my_portfolioapp.R;
+import com.japhethnyaranga.my_portfolioapp.R;
 import com.squareup.picasso.Picasso;
 
 

@@ -145,28 +145,34 @@
         android:orientation="horizontal"
         >
 
-        <ImageView
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            xmlns:app="http://schemas.android.com/apk/res-auto"
             android:id="@+id/Linkdn"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="96dp"
+            android:layout_height="96dp"
             android:src="@drawable/phone_foreground"
             android:layout_margin="10sp"
-            android:layout_weight="1"
-            />
-        <ImageView
+            android:layout_weight="1"/>
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            xmlns:app="http://schemas.android.com/apk/res-auto"
             android:id="@+id/Twitter"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="96dp"
+            android:layout_height="96dp"
             android:src="@drawable/phone_foreground"
             android:layout_margin="10sp"
             android:layout_weight="1"/>
-        <ImageView
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            xmlns:app="http://schemas.android.com/apk/res-auto"
             android:id="@+id/Github"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="96dp"
+            android:layout_height="96dp"
             android:src="@drawable/phone_foreground"
             android:layout_margin="10sp"
             android:layout_weight="1"/>
+
 
     </LinearLayout>
 

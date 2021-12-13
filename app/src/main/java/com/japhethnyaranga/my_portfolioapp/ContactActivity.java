@@ -1,8 +1,9 @@
-package com.moringaschool.my_portfolioapp;
+package com.japhethnyaranga.my_portfolioapp;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
+import android.net.Uri;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.ImageView;
@@ -65,5 +66,33 @@ public class ContactActivity extends AppCompatActivity {
                 .load("https://i.pinimg.com/236x/95/7c/4d/957c4dd9aa815cc1de2040cc1259589f.jpg")
                 .resize(150, 150)
                 .into(github);
+
+        linkdn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Uri uri = Uri.parse("https://www.linkedin.com/in/japheth-nyaranga-8b407b185/"); // missing 'http://' will cause crashed
+                Intent intent = new Intent(Intent.ACTION_VIEW, uri);
+                startActivity(intent);
+            }
+        });
+
+        twitter.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Uri uri = Uri.parse("https://twitter.com/nyaranga4"); // missing 'http://' will cause crashed
+                Intent intent = new Intent(Intent.ACTION_VIEW, uri);
+                startActivity(intent);
+            }
+        });
+        github.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Uri uri = Uri.parse("https://github.com/JAPHETHNYARANGA?tab=repositories"); // missing 'http://' will cause crashed
+                Intent intent = new Intent(Intent.ACTION_VIEW, uri);
+                startActivity(intent);
+            }
+        });
     }
+
+
 }

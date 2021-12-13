@@ -1,4 +1,4 @@
-package com.moringaschool.my_portfolioapp;
+package com.japhethnyaranga.my_portfolioapp;
 
 import android.content.Context;
 

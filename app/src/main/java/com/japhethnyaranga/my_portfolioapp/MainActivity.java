@@ -1,4 +1,4 @@
-package com.moringaschool.my_portfolioapp;
+package com.japhethnyaranga.my_portfolioapp;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -9,9 +9,6 @@ import android.widget.ImageView;
 import android.widget.TextView;
 
 import com.squareup.picasso.Picasso;
-
-import retrofit2.Retrofit;
-import retrofit2.converter.gson.GsonConverterFactory;
 
 public class MainActivity extends AppCompatActivity {
     ImageView Avatar;
